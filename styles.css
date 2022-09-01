@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: lightblue;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.formcontainer {
+    padding: 36px 24px;
+    box-shadow: 0px 8px 24px 0 rgba(255, 255, 255, 2.35);
+    background: linear-gradient(
+        to left,
+        rgba(255, 255, 255, 0.05),
+        rgba(255, 255, 255, 0.35)
+    );
+    max-width: 300px;
+    text-align: center;
+
+}
+
+.photo {
+    padding:0%;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    
+}
+
+.forms {
+    position: relative;
+    padding: 0px;
+    margin-bottom: 32px;
+    border: none;
+    border-radius: 18px;
+    text-align: center;
+}
+
+.formstext {
+    background: linear-gradient(to left,
+       rgba(255, 255, 255, 0.05),
+           rgba(255, 255, 255, 0.35));
+     position: relative;
+     padding: 8px;
+     border: none;
+     border-radius: 18px;
+     margin-top: 10px;
+     text-align: center;
+}
+
+.password {
+    position: relative;
+        padding: 0px;
+        margin-bottom: 32px;
+        border: none;
+        border-radius: 18px;
+        text-align: center;
+}
+
+
+
+.button {
+    border: none;
+    border-radius: 18px;
+    padding: 12px 24px;
+    display: block;
+    margin: 0 auto;
+    background: linear-gradient(to left,
+                rgba(255, 255, 255, 0.05),
+                rgba(255, 255, 255, 0.35));
+   
+    
+}
